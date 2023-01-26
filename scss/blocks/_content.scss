@@ -1,0 +1,46 @@
+body{
+    background-color: whitesmoke;
+}
+.container {
+    width: 1200px;
+}
+
+.content {
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.content__area {
+    text-align: left;
+    padding: 30px;
+    gap: 10px;
+    width: 600px;
+    height: 720px;
+    background: $white-color;
+    border-radius: 1px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    resize: none;
+    border: 0;
+    outline: none;
+}
+
+textarea::placeholder{
+    color: $dark-color;
+}
+
+.content__text--area {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color:  $dark-color;
+}
