@@ -1,18 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Figma</title>
-  </head>
-  <body>
-    <section class="content container">
-      <textarea
-        class="content__area content__text--area"
-        placeholder="Type Here..."
-      ></textarea>
+</head>
+
+<body>
+    <div class="wrapper">
+    <section class="content">
+        <textarea class="content__area content__text--area" placeholder="Type Here..."></textarea>
     </section>
-  </body>
+
+    <section class="options">
+        <ul class="options__list">
+            <li class="options__item">
+                <h1 class="options__item--text">
+                    Text
+                </h1>
+            </li>
+            <li class="options__item">
+                <select name="#" id="#" class="options__select--text">
+                    <option value="value1">Fira Sans</option>
+                </select>
+            </li>
+            <li class="options__item">
+                <div class="item__list--input">
+                    <select name="#" id="#" class="item__input--select">
+                        <option value="value1">Bold</option>
+                    </select>
+                    <div class="options__input--size">
+                        <input type="text" class="input__size--options" placeholder="14">
+                    </div>
+            </li>
+            <li class="options__item">
+                <div class="item__select">
+                    <select name="#" id="" class="options__item--select">
+                        <option value="value1">#292929</option>
+                    </select>
+                </div>
+            </li>
+            <li class="options__item">
+                <div class="item__input--list">
+                    <div class="input__letter--spacing">
+                        <input type="text" class="input__size" placeholder="125">
+                    </div>
+                    <div class="input__line--height">
+                        <input type="text" class="input__size" placeholder="0.6">
+                    </div>
+                </div>
+            </li>
+            <li class="options__item">
+                <div class="options__button--items">
+                    <button class="button__list--items">
+                        <img src="./img/Align Left.png" alt="значок выравнивания по левому краю"
+                            class="button__list--image">
+                    </button>
+                    <button class="button__list--items">
+                        <img src="./img/Align Center.png" alt="значок выравнивания по центру"
+                            class="button__list--image">
+                    </button>
+                    <button class="button__list--items">
+                        <img src="./img/Align Right.png" alt="значок выравнивания по правому краю"
+                            class="button__list--image">
+                    </button>
+                    <button class="button__list--items">
+                        <img src="./img/Align Justify.png" alt="выравнивание по заполнению элемента"
+                            class="button__list--image">
+                    </button>
+                </div>
+            </li>
+            <li class="options__item">
+                <button class="item__button">
+                    Apply Changes
+                </button>
+            </li>
+        </ul>
+    </section>
+    </div>
+</body>
+
 </html>

@@ -2,20 +2,18 @@ body {
   background-color: whitesmoke;
 }
 
-.container {
-  width: 1200px;
+.wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .content {
-  margin-left: 300px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .content__area {
   text-align: left;
-  padding: 30px;
-  gap: 10px;
   width: 600px;
   height: 720px;
   background: #FFFFFF;
@@ -52,4 +50,211 @@ textarea::placeholder {
   display: flex;
   align-items: center;
   color: #292929;
+}
+
+.options {
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  background-color: #FFFFFF;
+  padding-right: 35px;
+  width: 240px;
+  height: 800px;
+}
+
+.options__list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.options__item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.options__item--text {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #788994;
+}
+
+.options__select--text {
+  width: 210px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #E8ECF0;
+  border-radius: 4px;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-indent: 15px;
+  /* Dark */
+  color: #2D3A41;
+}
+
+.item__button {
+  width: 210px;
+  height: 40px;
+  background: #27AE60;
+  border-radius: 4px;
+  border: 0;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.item__button--text {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.item__list--input {
+  display: flex;
+}
+
+.item__input--list {
+  display: flex;
+}
+
+.input__letter--spacing {
+  display: relative;
+}
+
+.input__letter--spacing::before {
+  content: "";
+  position: absolute;
+  background: url("../../img/Letter Spacing.png");
+  margin: auto 0;
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.input__line--height {
+  display: relative;
+}
+
+.input__line--height::before {
+  content: "";
+  position: absolute;
+  background: url("../../img/Line Height.png");
+  margin: auto 0;
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.item__input--select {
+  width: 140px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #E8ECF0;
+  border-radius: 4px;
+  border: 0;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-indent: 15px;
+}
+
+.input__size--options {
+  width: 65px;
+  height: 36px;
+  background: #FFFFFF;
+  border: 1px solid #E8ECF0;
+  border-radius: 4px;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  text-indent: 10px;
+}
+
+.item__select {
+  display: flex;
+}
+
+.options__item--select {
+  width: 210px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #E8ECF0;
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  text-indent: 10px;
+}
+
+.input__size {
+  width: 100px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #E8ECF0;
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-indent: 10px;
+  color: #333333;
+}
+
+.options__button--items {
+  display: flex;
+}
+
+.button__list--items {
+  width: 53px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #E8ECF0;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.item__input--select {
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #E8ECF0;
+  border-radius: 4px;
 }/*# sourceMappingURL=style.css.map */
